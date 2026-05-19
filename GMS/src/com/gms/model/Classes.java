@@ -5,12 +5,14 @@ int classId;
 String className;
 String classCode;
 int teacherId;
+int studentCount;
 //constructor
-public Classes(int classId, String className, String classCode, int teacherId) {
+public Classes(int classId, String className, String classCode, int teacherId, int studentCount) {
 	this.classId = classId;
 	this.className = className;
 	this.classCode = classCode;
 	this.teacherId = teacherId;
+	this.studentCount = studentCount;
 }
 	
 		
@@ -32,5 +34,9 @@ public Classes(int classId, String className, String classCode, int teacherId) {
 		return teacherId;
 	}public void setTeacherId(int teacherId) {
 		this.teacherId = teacherId;
+	}public int getStudentCount() {
+		return studentCount;
+	}public void setStudentCount(int studentCount) {
+		this.studentCount = studentCount;
 	}
-	}
+}
