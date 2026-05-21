@@ -6,15 +6,14 @@ String className;
 String classCode;
 int teacherId;
 int studentCount;
-float averageGrade;
+
 //constructor
-public Classes(int classId, String className, String classCode, int teacherId, int studentCount, float averageGrade) {
+public Classes(int classId, String className, String classCode, int teacherId, int studentCount) {
 	this.classId = classId;
 	this.className = className;
 	this.classCode = classCode;
 	this.teacherId = teacherId;
 	this.studentCount = studentCount;
-	this.averageGrade = averageGrade;
 }
 	
 		
@@ -40,11 +39,6 @@ public Classes(int classId, String className, String classCode, int teacherId, i
 		return studentCount;
 	}public void setStudentCount(int studentCount) {
 		this.studentCount = studentCount;
-	}
-	public float getAverageGrade() {
-		return averageGrade;
-}
-	public void setAverageGrade(float averageGrade) {
-		this.averageGrade = averageGrade;
+	
 	}	
 }
