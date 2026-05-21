@@ -1,8 +1,8 @@
 package com.gms.model;
 
 public class Bird {
-	String fly() {
+	void fly() {
 		System.out.println("The bird is flying.");
-		return null;
+		
 	}
 }
